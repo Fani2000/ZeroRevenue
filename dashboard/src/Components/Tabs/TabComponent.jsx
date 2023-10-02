@@ -11,6 +11,8 @@ import React from "react";
 import AreaChartComponent from "../AreaChart/AreaChart";
 import LineChartComponent from "../LineGraph/LineGraph";
 import BarChartComponent from "../BarChart/BarChart";
+import HeaderList from "../Navbar/HeaderList";
+import ListItem from "./ListItem";
 
 function TabComponent() {
   return (
@@ -23,20 +25,20 @@ function TabComponent() {
       </TabList>
       <TabPanels>
         <TabPanel>
-          <div className="flex items-center gap-3 flex-wrap">
-            <BarChartComponent />
-            {/* <AreaChartComponent />
-            <LineChartComponent /> */}
+          <div className="mt-10 h-56">
+            {/* <ListItem /> */}
           </div>
+          {/* <AreaChartComponent />
+            <LineChartComponent /> */}
         </TabPanel>
         <TabPanel>
-          <div className="mt-10">Welcome 2</div>
+          <div className="mt-10 h-56">Welcome 2</div>
         </TabPanel>
         <TabPanel>
-          <div className="mt-10">Welcome 3</div>
+          <div className="mt-10 h-56">Welcome 2</div>
         </TabPanel>
         <TabPanel>
-          <div className="mt-10">Welcome 4</div>
+          <div className="mt-10 h-56">Welcome 2</div>
         </TabPanel>
       </TabPanels>
     </TabGroup>
